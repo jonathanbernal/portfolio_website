@@ -18,7 +18,7 @@ nav .button {
     border: 0;
 }
 
-.button:hover {
+nav .button:hover {
     background: rgb(45,45,45);
     background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(119,117,117,1) 50%, rgba(212,211,211,1) 100%);
     color: whitesmoke;
@@ -63,3 +63,13 @@ p {
     color: #E9D8A6;
     text-align: justify;
 }
+
+.contact-button-container > a {
+    font-size: 1.5em;
+}
+
+.contact-button-container > a:hover {
+    color: white;
+    font-size: 2em;
+}
+
