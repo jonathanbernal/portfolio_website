@@ -1,15 +1,65 @@
+/* This query addresses the padding issue with the static navigation bar */
+@media (min-width: 500px) {
+    html {
+        scroll-padding-top: 70px;
+    }
+}
+
 .navbar {
-    background-color: #0A9396;
+    background: #001219;
     padding: 0;
 }
 
 nav .button {
     font-size: 1.5em;
-    color: #94D2BD;
+    color: white;
     padding: 1em;
     border-radius: 0;
+    border: 0;
 }
 
 .button:hover {
-    background-color: #94D2BD;
+    background: rgb(45,45,45);
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(119,117,117,1) 50%, rgba(212,211,211,1) 100%);
+    color: whitesmoke;
+}
+
+section {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.section-content {
+    margin: 6em;
+}
+
+#welcome-section {
+    background-color: #9B2226;
+}
+
+#about-section {
+    background-color: #AE2012;
+}
+
+#projects-section {
+    background-color: #BB3E03;
+}
+
+#contact-section {
+    background-color: #CA6702;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1.75em;
+    color: #E9D8A6;
+    text-align: justify;
 }
