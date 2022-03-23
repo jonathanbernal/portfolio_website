@@ -16,64 +16,85 @@
             <div class="btn-container">
                 <a class="button btn nav-item" href="#welcome-section">Welcome</a>
                 <a class="button btn nav-item" href="#about-section">About</a>
-                <a class="button btn nav-item" href="#projects-section">Projects</a>
+                <a class="button btn nav-item" href="#projects">Projects</a>
                 <a class="button btn nav-item" href="#contact-section">Contact</a>
             </div>
         </nav>
         <section id="welcome-section">
-            <div class="section-content">
-                <h1 class="text-center">I am Jonathan Bernal</h1>
-                <p class="text-center">An Embedded Software Developer At BioMagic Vr, Inc.</p>
+            <div class="section-content align-content-center">
+                <h1 class="section-title">I am Jonathan Bernal</h1>
+                <p class="section-text text-center">An Embedded Software Developer At BioMagic Vr, Inc.</p>
             </div>
         </section>
         <section id="about-section" class="align-text-center">
             <div class="container">
                 <h1 class="text-center">About Myself</h1>
-                <p>I am a software developer who has worked in the academic/startup industries for over 5 years. Primarily, I have worked
+                <p class="section-text">I am a software developer who has worked in the academic/startup industries for over 5 years. Primarily, I have worked
                     in developing mobile solutions for the Android ecosystem. At the embedded level, I have been involved primarily
                     in wireless communications using BLE technology. I have worked with different microcontroller architectures, including
                     but not limited to Atmel and ARM.
                 </p>
             </div>
         </section>
-        <section id="projects-section">
+        <section id="projects">
             <div class="container">
                 <h1 class="text-center">These Are Some Of My Personal Projects</h1>
+                <p class="section-text text-center">My project portfolio showcases both my Web development and embedded programming skills.
+                    This website was also developed by myself. No CMS Systems were used in its design.
+                </p>
             </div>
-            <div class="container align-text-center">
-                <div class="row">
-                    <div class="card col">
-                        <div class="card-img"></div>
-                        <div class="card-body"></div>   
+            <div class="project-tile-array">
+                <a class="project-tile" href="https://codepen.io/ulvargen/full/gRNjVe" target="_blank">
+                    <img class="tile-image" src="/assets/tribute_page_website.JPG">
+                    <div class="tile-body">
+                        <h3 class="tile-title">Tribute Webpage</h3>
+                        <p class="tile-text">A tribute to one of my favorite artists. It briefly describes some of his work and discography</p>
                     </div>
-                    <div class="card col">
-                        <div class="card-body"></div>
+                </a>
+                <a class="project-tile" href="https://codepen.io/ulvargen/full/XWebyLb" target="_blank">
+                    <img class="tile-image" src="/assets/polishing_company_website.JPG">
+                    <div class="tile-body">
+                        <h3 class="tile-title">Tile Polishing Company, Inc.</h3>
+                        <p class="tile-text">A website for a tile company to showcase their products and services</p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="card col">
-                        <div class="card-img"></div>
-                        <div class="card-body"></div>   
+                </a>
+                <a class="project-tile" href="https://codepen.io/ulvargen/full/XWVdzbN" target="_blank">
+                    <img class="tile-image" src="/assets/documentation_website.jpg">
+                    <div class="tile-body">
+                        <h3 class="tile-title">Documentation Website</h3>
+                        <p class="tile-text">A mockup website to show features about C++ (WIP)</p>
                     </div>
-                    <div class="card col">
-                        <div class="card-body"></div>
+                </a>
+                <a class="project-tile" href="https://www.youtube.com/watch?v=0DUZ3RcX9jQ" target="_blank">
+                    <img class="tile-image" src="/assets/biobrace.jpg">
+                    <div class="tile-body">
+                        <h3 class="tile-title">Multipurpose Input Wristband</h3>
+                        <p class="tile-text">A wearable that can read muscle tension, stress, and position</p>
                     </div>
-                </div>
+                </a>
+                <a class="project-tile" href="https://www.youtube.com/watch?v=IHgt_smJk1g" target="_blank">
+                    <img class="tile-image" src="/assets/fpga_greenhouse_controller.jpg">
+                    <div class="tile-body">
+                        <h3 class="tile-title">FPGA Greenhouse Controller</h3>
+                        <p class="tile-text">A system developed in C++ that simulates the behavior of a greenhouse</p>
+                    </div>
+                </a>
+
             </div>
         </section>
         <section id="contact-section">
             <div class="container text-center">
                 <h1 class="text-center">Let's Get In Touch</h1>
-                <p class="text-center">Want to exchange ideas or work on a project? Please don't hesitate to contact me!</p>
-                <div class="container contact-button-container">
-                    <a class="button btn" href="https://github.com/jonathanbernal" target="_blank"><i class="bi bi-github"></i>Github</a>
+                <p class="text-center section-text">Want to exchange ideas or work on a project? Please don't hesitate to contact me!</p>
+                <div class="d-grid d-lg-block contact-button-container">
+                    <a class="button btn" id="profile-link" href="https://github.com/jonathanbernal" target="_blank"><i class="bi bi-github"></i>Github</a>
                     <a class="button btn" href="https://www.linkedin.com/in/johnbernal/" target="_blank"><i class="bi bi-linkedin"></i>LinkedIn</a>
                     <a class="button btn"><i class="bi bi-envelope-fill"></i>Email</a>
                 </div>
             </div>
         </section>
         
-        <script src="js/style.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
