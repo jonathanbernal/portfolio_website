@@ -1,13 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* This query addresses the padding issue with the static navigation bar */
-@media (min-width: 500px) {
+@media (max-width: 320px) { /* Query for mobile devices */
+    #welcome-section {
+        font-size: 0.75em;
+        text-align: center;
+        padding: 2em;
+    }
+
+    #about-section {
+        padding: 2em;
+        font-size: 0.75em;
+    }
+    
+    #projects {
+        font-size: 0.75em;
+        padding: 1em;
+    }
+    
+    #contact-section {
+        padding: 2em;
+    }
+}
+
+@media (max-width: 900px) /* Query for tablets */
+{
+    #welcome-section {
+        background-color: green;
+        text-align: center;
+        padding: 2em;
+    }
+}
+
+@media (min-width: 1200px) { /* Query for desktops */
     html {
         scroll-padding-top: 70px;
+    }
+
+    #welcome-section {
+        background-color: #9B2226;
+        text-align: center;
+        padding: 40vh 50vh;
+    }
+
+    #about-section {
+        height: fit-content;
+        padding: 40vh 25vh;
+    }
+
+    #projects {
+        padding: 10em 0;
+    }
+
+    #contact-section {
+        padding: 5em;
     }
 }
 
 .navbar {
     background: #001219;
-    padding: 0;
 }
 
 nav .button {
@@ -24,19 +79,11 @@ nav .button:hover {
     color: whitesmoke;
 }
 
-section {
-    padding-top: 6em;
-    padding-bottom: 6em;
-}
-
 .section-content {
-    margin: 6em;
 }
 
 #welcome-section {
     background-color: #9B2226;
-    height: 100vh;
-    text-align: center;
 }
 
 #about-section {
@@ -45,10 +92,12 @@ section {
 
 #projects {
     background-color: #BB3E03;
+    height:fit-content;
 }
 
 #contact-section {
     background-color: #CA6702;
+    height: fit-content;
 }
 
 h1 {
@@ -76,6 +125,7 @@ h3 {
     font-size: 2em;
 }
 
+/* These are all classes used to structure the contents of the projects section */
 .project-tile-array {
     padding: 1em 0;
     display: flex;
