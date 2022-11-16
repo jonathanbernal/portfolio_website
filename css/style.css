@@ -65,9 +65,9 @@
     background: #001219;
 }
 
-nav .button {
+a.nav-link.button.btn {
+    color: whitesmoke;
     font-size: 1.5em;
-    color: white;
     padding: 1em;
     border-radius: 0;
     border: 0;
