@@ -4,30 +4,77 @@
     padding: 0;
 }
 
+/* Common Attributes */
+h1 {
+    font-size: 3.5em;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+.section-content {
+}
+
+#welcome-section {
+    background-color: #9B2226;
+}
+
+#about-section {
+    background-color: #AE2012;
+}
+
+#projects {
+    background-color: #BB3E03;
+    height:fit-content;
+}
+
+#contact-section {
+    background-color: #CA6702;
+    height: fit-content;
+}
+
+.section-text {
+    font-size: 1.75em;
+    color: #E9D8A6;
+    text-align: justify;
+}
+
+.contact-button-container > a {
+    font-size: 1.5em;
+    margin: 0 .5em 0 .5em;
+}
+
+.contact-button-container > a:hover {
+    color: white;
+    font-size: 2em;
+}
+
 /* This query addresses the padding issue with the static navigation bar */
-@media (max-width: 320px) { /* Query for mobile devices */
+@media (min-width: 320px) and (max-width: 899px) { /* Query for mobile devices */
+    
     #welcome-section {
         font-size: 0.75em;
-        text-align: center;
-        padding: 2em;
+        padding: 40vh 5vh;
     }
 
     #about-section {
-        padding: 2em;
+        padding: 10vh 5vh;
         font-size: 0.75em;
     }
     
     #projects {
         font-size: 0.75em;
-        padding: 1em;
+        padding: 10vh 5vh;
     }
     
     #contact-section {
-        padding: 2em;
+        padding: 5vh;
     }
 }
 
-@media (max-width: 900px) /* Query for tablets */
+@media (min-width: 900px) and (max-width: 1199px)  /* Query for tablets */
 {
     #welcome-section {
         background-color: green;
@@ -77,52 +124,6 @@ nav .button:hover {
     background: rgb(45,45,45);
     background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(119,117,117,1) 50%, rgba(212,211,211,1) 100%);
     color: whitesmoke;
-}
-
-.section-content {
-}
-
-#welcome-section {
-    background-color: #9B2226;
-}
-
-#about-section {
-    background-color: #AE2012;
-}
-
-#projects {
-    background-color: #BB3E03;
-    height:fit-content;
-}
-
-#contact-section {
-    background-color: #CA6702;
-    height: fit-content;
-}
-
-h1 {
-    font-size: 3.5em;
-    color: whitesmoke;
-}
-
-h3 {
-    font-size: 1.75em;
-}
-
-.section-text {
-    font-size: 1.75em;
-    color: #E9D8A6;
-    text-align: justify;
-}
-
-.contact-button-container > a {
-    font-size: 1.5em;
-    margin: 0 .5em 0 .5em;
-}
-
-.contact-button-container > a:hover {
-    color: white;
-    font-size: 2em;
 }
 
 /* These are all classes used to structure the contents of the projects section */
