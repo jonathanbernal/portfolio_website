@@ -57,6 +57,7 @@ h3 {
     #welcome-section {
         font-size: 0.75em;
         padding: 40vh 5vh;
+        text-align: center;
     }
 
     #about-section {
@@ -77,9 +78,23 @@ h3 {
 @media (min-width: 900px) and (max-width: 1199px)  /* Query for tablets */
 {
     #welcome-section {
-        background-color: green;
+        font-size: 0.75em;
+        padding: 40vh 5vh;
         text-align: center;
-        padding: 2em;
+    }
+
+    #about-section {
+        padding: 35vh 5vh;
+        font-size: 0.75em;
+    }
+    
+    #projects {
+        font-size: 0.75em;
+        padding: 10vh 5vh;
+    }
+    
+    #contact-section {
+        padding: 5vh;
     }
 }
 
