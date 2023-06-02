@@ -29,28 +29,51 @@ body {
   min-height: 100vh;
 }
 
-/* h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-} */
-
-nav {
+.nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.h1 {
+h1 {
   font-size: 1.6rem;
   margin-right: auto;
 }
 
-nav ul {
+.nav--links {
   display: flex;
-  gap: 1rem;
-  padding: 0 5rem;
   text-decoration: none;
   list-style-type: none;
+  margin: 0 1rem;
+}
+
+.nav--links > li {
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+  padding: 1rem;
+}
+
+.nav--links > li > a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.nav--links > li:hover {
+  background-color:rgba(149, 157, 165, 0.2);
+}
+
+.nav--links > li > a:visited {
+  color: black;
+}
+
+.nav--link_icon {
+  font-size: 1.4rem;
+}
+
+.linkedin_logo {
+  color: #0072B1;
 }
 
 .hero_header {
