@@ -16,7 +16,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/jonathanbernal2" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/jonathanbernal2/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="nav--link_icon linkedin_logo" />
           </a>
         </li>
