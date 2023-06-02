@@ -2,7 +2,7 @@ function Footer() {
   const date = new Date();
 
   return (
-    <footer>
+    <footer className="footer">
       <small>Copyright {date.getFullYear()}. Made by Jonathan Bernal</small>
     </footer>
   )
