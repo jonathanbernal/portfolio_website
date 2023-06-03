@@ -21,6 +21,7 @@ function HeroHeader() {
           become experienced with the following technologies:
         </p>
         <TechnologyList list={technologyIconList} />
+        <button style={{width: "fit-content"}}>Read the whole story</button>
       </div>
     </div>
   )
