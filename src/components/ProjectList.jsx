@@ -49,6 +49,14 @@ function ProjectList({ list }) {
         A classic implemention of Rock, Paper, Scissors with sound effects. It introduces DOM manipulation, audio
         elements, and event handlers.
       </ProjectCard>
+      <ProjectCard
+        title="BioBrace VR"
+        imageUrl="../src/assets/biobrace.jpg"
+        liveUrl="https://www.youtube.com/watch?v=0DUZ3RcX9jQ"
+      >
+        BioBrace VR is a multi-purpose input device that offers features to interact with desktop, mobile, and gaming
+        environments. It possesses an IMU, a stress sensor, and can also read muscle tension.
+      </ProjectCard>
     </div>
   ) 
 }
