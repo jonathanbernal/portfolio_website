@@ -3,13 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
+import {Outlet, Link} from 'react-router-dom';  
+
 function Navbar() {
   return (
     <nav className="nav">
       <ul className="nav--links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><Link to={`/`}>Home</Link></li>
+        <li><Link to={`/about`}>About</Link></li>
+        <li><Link to={`/projects`}>Projects</Link></li>
         <li>
           <a href="https://github.com/jonathanbernal" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="nav--link_icon" />
